@@ -12,11 +12,11 @@ public class Main {
         ArrayList<Alumno> alumnosArr = new ArrayList<>();
         DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
 
-        Alumno alumno1 = new Alumno("Emanuel","33954307",df.parse("06/04/1989"),5, df.parse("03/03/2020"));
-        Alumno alumno2 = new Alumno("Noelia","35994856",df.parse("12/12/1991"),7, df.parse("03/04/2020"));
-        Alumno alumno3 = new Alumno("Somita","33954307",df.parse("06/04/1989"),8, df.parse("03/05/2020"));
-        Alumno alumno4 = new Alumno("Mogul","33954307",df.parse("06/04/1989"),4, df.parse("03/07/2020"));
-        Alumno alumno5 = new Alumno("Chester","33954307",df.parse("06/04/1989"),2, df.parse("03/01/2020"));
+        Alumno alumno1 = new Alumno("Noelina","35994856",df.parse("12/12/1991"),7, df.parse("03/04/2020"));
+        Alumno alumno2 = new Alumno("Somita","33954307",df.parse("06/05/2017"),8, df.parse("03/05/2020"));
+        Alumno alumno3 = new Alumno("Mogul","33954307",df.parse("29/06/2013"),4, df.parse("03/07/2020"));
+        Alumno alumno4 = new Alumno("Chester","33954307",df.parse("06/07/2013"),2, df.parse("03/01/2020"));
+        Alumno alumno5 = new Alumno("Emanuel","33954307",df.parse("06/04/1989"),5, df.parse("03/03/2020"));
 
         alumnosArr.add(alumno1);
         alumnosArr.add(alumno2);
