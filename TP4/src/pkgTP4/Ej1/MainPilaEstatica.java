@@ -1,11 +1,10 @@
-package pkgTP4.Ej2;
+package pkgTP4.Ej1;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainPilaEstatica {
     public static void main(String[] args) {
-        ColaEstArrListPersona c = new ColaEstArrListPersona();
-
+        PilaEstArrListPersona p = new PilaEstArrListPersona();
         Persona persona = new Persona();
         int edad;
         String nombre;
@@ -22,11 +21,12 @@ public class Main {
             persona.setEdad(edad);
             persona.setNombre(nombre);
 
-            c.insertar(persona);
+            p.insertar(persona);
         }
-        while(!c.ColaVacia()){
-            System.out.println(c.sacar());
+        while(!p.PilaVacia()){
+            System.out.println(p.sacar());
         }
-
     }
+
+
 }

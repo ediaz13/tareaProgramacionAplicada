@@ -3,7 +3,7 @@ package pkgTP4.Ej3;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class MainPilaArrayList {
     public static void main(String[] args) {
         PilaEstArrListNombres nombresPila = new PilaEstArrListNombres();
 

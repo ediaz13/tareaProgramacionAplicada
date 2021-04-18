@@ -5,7 +5,7 @@ import pkgTP4.Ej2.Persona;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainColaArrayList {
     public static void main(String[] args) {
         ColaEstArrListNombre colaNombres = new ColaEstArrListNombre();
         String nombre;

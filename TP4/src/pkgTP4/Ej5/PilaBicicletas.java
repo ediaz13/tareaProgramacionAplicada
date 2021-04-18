@@ -1,44 +1,43 @@
 package pkgTP4.Ej5;
 
 public class PilaBicicletas {
-    private BicicletaPracticar tope;
+    private Bicicleta tope;
 
     public PilaBicicletas(){
         tope=null;
     }
 
-    public void Poner(String tipo){
-        tope=new BicicletaPracticar(tipo,tope);
+    public void Poner(Bicicleta bici){
+        bici.setSiguiente(tope);
+        tope= bici;
     }
 
-    public String Sacar(){
-        BicicletaPracticar aux;
-        String Info;
-
+    public Bicicleta Sacar(){
+        Bicicleta pilaBici;
+        Bicicleta aux;
         aux=this.tope;
 
         if(aux==null)
             return null;
 
+        pilaBici = aux;
         tope=aux.getSiguiente();
-        Info=aux.getTipo();
 
         aux=null;
-        return Info;
+        return pilaBici;
     }
 
     public boolean EstaVacia(){
         return this.tope==null;
     }
 
-    public void Vaciar()
-    {
-        BicicletaPracticar aux;
+    public void Vaciar() {
+        Bicicleta aux;
 
         while(tope!=null){
-            aux=this.tope;
-            tope=aux.getSiguiente();
-            aux=null;
+            aux = this.tope;
+            tope = aux.getSiguiente();
+            aux = null;
         }
     }
 

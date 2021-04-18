@@ -2,7 +2,7 @@ package pkgTP4.Ej6;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainPilaDinamica {
     public static void main(String[] args) {
         Pila pila = new Pila();
         int edad;
