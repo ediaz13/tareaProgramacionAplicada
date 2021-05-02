@@ -12,10 +12,10 @@ public class MainQueue {
 
         Scanner en=new Scanner(System.in);
         Producto pro; //pro -> variable de tipo Producto
-        System.out.print("inserte cantidad de datos a insertar:");
+        System.out.print("Inserte cantidad de datos a insertar:");
         int N=en.nextInt(); //cantidad de datos por teclado
 
-        for(int i=0;i<N;i++){
+        for(int i=0; i<N; i++){
             System.out.println("Ingrese nombre producto: ");
             String nom=en.next();
 

@@ -15,7 +15,7 @@ public class MainStack {
 
         int N=en.nextInt();
 
-        for(int i=0;i<N;i++){
+        for(int i=0; i<N; i++){
             int idProd = 0;
             String nameProd = StringUtils.SPACE;
 
